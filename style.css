@@ -1,0 +1,240 @@
+            body{
+              
+                background-image: url(light-cityscapes-night-traffic-lights-cities-wallpaper-1.jpg);
+                height: 100%;
+               width: 100%;
+               background-position: center;
+               background-size: cover;
+             background-repeat: no-repeat;
+            }
+            #menu{
+                margin: 0;
+                padding: 0;
+                height: 10%;
+                width: 100%;
+                background-color: #2c2929;
+            }
+            #menu img{
+                height: 99%;
+                float: left;
+                opacity: 0.7;
+            }
+            nav{
+                padding-top: 20px;
+                padding-left: 50%;
+            }
+            nav a{
+                font-size: 20px;
+                margin-right: 12%;
+                font-family: sans-serif;
+                color: white;
+                border-bottom: 2px solid white;
+               text-decoration: none;
+                padding: 5px;
+            }
+            nav a:hover{
+               border-bottom-width: thin;
+                font-size: 15px;
+                transition: 0.3s;
+            }
+            #noticediv{
+                margin-top: 2px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                width: 100%;
+                height: 20px;
+                background-color: #ccc4c4;
+                color: red;
+                font-size: 20px;
+                font-weight: bolder;
+                opacity: 0.8;
+            }
+            #leftdiv{
+                height: 100%;
+                width: 20%;
+                background-color: #c6c3c3;           
+                margin-top: 5px;
+                float: left;
+            }
+            #rightdiv img{
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+            #rightdiv{
+                height: 100%;
+                width: 20%;
+                background-color: #c6c3c3;
+                margin-top: 5px;
+                float: right;
+            }
+            #centerdiv{
+                opacity: 0.9;
+                height: 100%;
+                width: 59%;
+                background-color: #c6c3c3;
+                margin-top: 5px;
+                margin-left: 5px;
+                float: left;
+            }
+            #centerdiv img{
+                margin-left: 250px;
+                margin-top: 15px;
+            }
+            table {
+                font-family: sans-serif;
+                width: 90%;
+                margin-top: 12%;
+                margin-left: 5%;
+                border-collapse: collapse;
+            }
+            th{
+                text-align: left;
+                padding: 8px;
+                text-align: center;
+               font-family: sans-serif;
+                font-size: 18px;
+                background-color: #2c2929;
+                color: white;
+            }
+
+            td {
+                font-size: 15px;
+                text-align: left;
+                padding: 8px;
+                text-align: center;
+            }
+
+            tr{
+                font-size: 20px;
+                background-color: #f2f2f2
+            }
+
+            #usertable {
+                text-align: left;
+                font-size: 14px;
+                background-color: transparent;
+            }
+            
+            form{
+                border-radius: 10px;
+                background-color: transparent;
+                position: absolute;
+                width: 400px;
+                height: 500px;
+                border: 3px solid black;
+                left: 35%;
+                top: 15%;
+            }
+            form p{
+                color: red;
+                padding-top: 5%;
+                padding-left: 30%;
+            }
+            form h1{
+                font-size: 35px;
+               font-weight: bold;
+                font-family: sans-serif;
+                text-align: center;
+                top 30px;
+                padding-bottom: 30px;
+            }
+            form input[type="text"]{
+                text-decoration: none;
+                  background-color: transparent;
+                border: none;
+                border-bottom: 2px solid black;
+                padding: 0;
+                margin-left: 20% ;
+                margin-bottom: 25px;
+                font-family: sans-serif;
+                font-size: 18px;
+                width: 230px;
+                height: 30px;
+            }
+            form input[type="text"]:hover{
+                border: none;
+                 border-bottom: 2px solid red;
+               
+            }
+            form input[type="password"]{
+                  background-color: transparent;
+                border: none;
+                border-bottom: 2px solid black;
+                padding: 0;
+                margin-left: 20% ;
+                margin-bottom: 25px;
+                font-family: sans-serif;
+                font-size: 18px;
+                width: 230px;
+                height: 30px;
+            }
+            form input[type="password"]:hover{
+                border: none;
+                 border-bottom: 2px solid red;
+               
+            }
+            
+            form input[type="submit"]{
+                background-color: black;
+                width: 250px;
+                height: 30px;
+                border: none;
+                margin-left: 20%;
+                font-size: 16px;
+                color: white;
+                font-family: sans-serif;
+                  border-radius: 8px;
+            }
+            form input[type="submit"]:hover{
+                background-color: white;
+               color: darkgreen;
+                border: 2px solid black;
+            }
+            #formForButton {
+                border: none;
+            }
+            #formForButton #submit{
+                font-size: 25px;
+                color: white;
+                background-color: black;
+                font-family: sans-serif;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #formForButton #submit:hover{
+                font-size: 20px;
+                background-color: black;
+                color: white;
+                transition: 0.2s;
+            }
+           
+           ul{
+                list-style-type: none;
+            }
+            ul li{
+                margin-left: 0;
+                padding-left: 5px;
+                background: transparent;
+                margin-bottom: 4px;
+                width: 90%;
+                font-family: sans-serif;
+                font-size: 20px;
+                border: 2px solid black;
+            }
+            ul li ul {
+                display: none;
+            }
+            ul li:hover ul{
+                display: block;
+            }
+            ul li ul li{
+                border: none;
+                list-style-type: square;
+            }
+            #leftdiv a{
+                color: black;
+                text-decoration: none;
+            }
+            #leftdiv a:hover{
+                color: red;
+            }

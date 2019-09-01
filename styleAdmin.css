@@ -1,0 +1,83 @@
+<style>
+          
+        
+        #menu{    
+            width: 100%;
+            height: 100px;
+        }
+        body{
+            background-image: url(pen.jpg);
+            height: 100%;
+            background-attachment: fixed;
+            }
+        #menu h1{
+            font-family:monospace;
+            line-height: 80px;
+            text-align:center;
+            font-size: 40px;
+            color: white;
+            background-color: #0076ff;
+        }
+          
+        #div2{
+            text-align: center;
+            margin-top: 75px;
+            height: 100%;
+            width: 60%;
+            float: left;
+            color: red;
+        }
+        fieldset{
+                width: 300px;
+                border-color: #009270;
+                font-size: 18px;
+                height: 300px;
+                text-align: center;
+                font-family: sans-serif;
+                color:red;
+                background-color: #E3E6E3;
+                display:inline-block;
+            }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th{
+            font-size: 20px;
+            text-align: left;
+            padding: 8px;
+            text-align: center;
+        }
+    
+        td {
+            font-size: 20px;
+            text-align: left;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr{
+            font-size: 20px;
+            background-color: #f2f2f2
+        }
+
+        th {
+            font-size: 30px;
+            background-color: #009270;
+            color: white;
+        }
+        #button{
+                border-color: goldenrod;
+                text-align: center;
+                width: 200px;
+                height: 40px;
+                background: #009270;
+                color:white;
+                font-size: 25px;
+            }
+        #button:hover{
+                background-color: white;
+                color:#009270;
+            }
+</style>
